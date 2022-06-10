@@ -567,7 +567,21 @@ section {
 
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .fth-wrapper {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .fd-wrapper input {
+        padding: 4px;
+        font-size: 18px;
+    }
+
+    .fdw-btn {
+        padding: 10px 14px;
+        font-size: 10px;
+    }
+}
 
 @media (max-width: 500px) {
     .first-section {
@@ -631,6 +645,10 @@ section {
     .fwp-wrapper {
         justify-content: center;
         margin-top: 15px;
+    }
+
+    .fourth-section {
+        height: 1720px;
     }
 }
 
@@ -734,7 +752,7 @@ section {
     }
 
     .snd-wrapper {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .trd-wrapper {
@@ -754,7 +772,7 @@ section {
 
 @media (max-width: 768px) {
     .fs-t-heading {
-        font-size: 30px;
+        font-size: 26px;
         line-height: normal;
     }
 
